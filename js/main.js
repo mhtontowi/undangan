@@ -103,7 +103,7 @@
     * ------------------------------------------------------ */
     const ssFinalCountdown = function() {
 
-        const finalDate = '2022/09/11';
+        const finalDate = '2022/09/11 16:00:00 GMT+0900';
 
         $('.counter').countdown(finalDate)
         .on('update.countdown finish.countdown', function(event) {
