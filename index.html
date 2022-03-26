@@ -34,8 +34,7 @@
 </head>
 
 <body id="top">
-    <iframe src="250-milliseconds-of-silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
-    <audio id="song" src="images/slides/song.mp3" autoplay></audio>
+    <audio id="song" src="images/slides/song.mp3" loop></audio>
 <!-- preloader
     ================================================== -->
     <div id="preloader">
@@ -121,7 +120,7 @@
 
                     <div class="intro-content__notify">
                         <a>
-                        <button type="button" class="btn--stroke btn--small modal-trigger">
+                        <button type="button" class="btn--stroke btn--small modal-trigger" value="sound" onclick="playMusic()">
                             Invitation
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 12l-9-9v7h-15v4h15v7z"/></svg>
                         </button></a>
@@ -318,6 +317,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/music.js"></script>
     <script>
         var audio = document.getElementById("song");
         audio.volume = 0.4;
