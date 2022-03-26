@@ -1,4 +1,4 @@
 function redirect()
     {
-        location.href = "index-slides.html";
+        location.href = "index.html";
     }
