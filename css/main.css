@@ -2552,12 +2552,12 @@ html.no-csstransitions .intro-content__bottom {
   content: "";
   width: 55%;
   height: 65%;
-  background-color: #ffffff;
+  
   opacity: .5;
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: contain;
-  background-image: url(../images/bg-info.jpg);
+  background-image: url(../images/bg-info.png);
   position: absolute;
   right: 0;
   bottom: 0;
